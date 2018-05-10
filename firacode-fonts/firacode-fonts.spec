@@ -2,7 +2,7 @@
 
 Name:           %{fontname}-fonts
 Version:        1.205
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Mono-spaced font with programming ligatures
 
 License:        OFL
@@ -33,6 +33,9 @@ install -m 0644 -p distr/ttf/*.ttf %{buildroot}%{_fontdir}
 %{_fontdir}/*.ttf
 
 %changelog
+* Thu May 10 2018 Ícaro Pereira Hoff <icarohoff@gmail.com> - 1.205-3
+- bump version
+
 * Thu May 10 2018 Ícaro Pereira Hoff <icarohoff@gmail.com> - 1.205-2
 - changed package name to firacode-fonts
 
